@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservasi Cafe Inur Chintya</title>
+
+    <style>
+        body {
+            background-color: #c9a47a; /* WARNA COKLAT */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: #5a351a;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        .menu-icons {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .menu-icons img {
+            width: 80px;
+            height: 70px;
+            margin: 0 20px;
+            display: inline-block;
+        }
+
+        hr {
+            margin-top: 15px;
+            border: 1px solid #8c6748;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            margin-top: 25px;
+        }
+
+        table {
+            width: 100%;
+            font-size: 18px;
+        }
+
+        td {
+            padding: 10px 5px;
+        }
+
+        input[type=text],
+        input[type=date],
+        textarea {
+            width: 250px;
+            height: 25px;
+            padding: 4px;
+        }
+
+        textarea {
+            height: 40px;
+            width: 380px;
+        }
+
+        .btn {
+            padding: 6px 15px;
+            font-size: 15px;
+            margin-left: 290px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+<h1>SELAMAT DATANG DI CAFE KOPI INUR CHINTYA</h1>
+<a href="index.html"> <img src="inirumah.jpeg" width="60" height="auto" style="border-radius: 10px;" alt="Beranda"></a> |
+<a href="menu1.html"> <img src="inikopi.jpeg" width="60" height="auto" style="border-radius: 10px;" alt="Menu"></a> |
+<a href="reservasi.html"> <img src="inikelender.jpeg" width="60" height="auto" style="border-radius: 10px;" alt="Revervasi"></a> 
+</ul>
+<hr>
+    <hr>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td style="color:#5a351a;"><b>Nama Pelanggan</b></td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td style="color:#5a351a;"><b>Nomor Telepon</b></td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td style="color:#5a351a;"><b>Tanggal Reservasi</b></td>
+                <td>:</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td style="color:#5a351a;"><b>Jumlah Orang</b></td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td style="color:#b81414;"><b>Pilih Area</b></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="area"> Indoor (No_Smoking) <br>
+                    <input type="radio" name="area"> Outdoor (Smoking)
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <textarea>SELAMAT MENCOBA CAFE KOPI KAMI</textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button class="btn">Kirim Reservasi</button></td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>
